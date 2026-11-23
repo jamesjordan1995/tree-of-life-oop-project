@@ -1,0 +1,13 @@
+g++ -I. -Iclasses -Iclasses/lifeforms classes/*.cpp classes/lifeforms/*.cpp cpp.cpp -o test
+
+-I. == include cwd
+
+-Iclasses == include dir classes in cwd to look for headers
+
+-Iclasses/lifeforms == include lifeforms in classes to look for headers
+
+classes/*.cpp == include all cpp files for linking and compilation; same with classes/lifeforms; expands to all .cpp files directly inside of these dirs
+
+cpp.cpp == main sourcefile
+
+-o test == output to file called "test" in cwd
