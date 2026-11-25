@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <memory>
 
 #include "typeMacros.h"
 
@@ -15,5 +16,5 @@ class Capability
 
 namespace Capabilities
 {
-    extern const Capability swimmer;
+    extern const sptr<Capability> swimmer;
 }

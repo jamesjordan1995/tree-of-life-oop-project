@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <memory>
 
 #include "typeMacros.h"
 
@@ -15,6 +16,5 @@ class Trait
 
 namespace Traits
 {
-    extern const Trait aquatic;
-    extern const Trait swimmer;
+    extern const sptr<Trait> aquatic;
 }

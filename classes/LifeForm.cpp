@@ -45,14 +45,14 @@
         {
             cout << "--Traits:" << endl;
             for(const auto &x: traits){
-                cout << "\t" << x.traitName << " :: " << x.traitDescription << endl;
+                cout << "\t" << x->traitName << " :: " << x->traitDescription << endl;
             }
         }
         if(!capabilities.empty())
         {
             cout << "--Capabilities:" << endl;
             for(const auto &x: capabilities){
-                cout << "\t" << x.capabilityName << " :: " << x.capabilityDescription << endl;
+                cout << "\t" << x->capabilityName << " :: " << x->capabilityDescription << endl;
             }
         }
         cin.get();

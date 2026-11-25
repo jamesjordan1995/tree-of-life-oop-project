@@ -25,8 +25,8 @@ protected:
     const Family &family;
     const Genus &genus;
 
-    dynamicArray<Trait> traits; //! no need to worry about object slicing or anything as this is not a derivative, and if we stored it as its uptr<base> it would be pretty safe from slicing anyway
-    dynamicArray<Capability> capabilities;
+    dynamicArray<sptr<Trait>> traits; //! no need to worry about object slicing or anything as this is not a derivative, and if we stored it as its uptr<base> it would be pretty safe from slicing anyway
+    dynamicArray<sptr<Capability>> capabilities;
 
     string name;
     string description;

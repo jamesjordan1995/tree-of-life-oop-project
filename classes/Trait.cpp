@@ -1,5 +1,7 @@
 #include "Trait.h"
 
+#include <memory>
+
 Trait::Trait(const string& tn, const string& td)
 :traitName(tn), traitDescription(td)
 {
@@ -8,6 +10,5 @@ Trait::Trait(const string& tn, const string& td)
 
 namespace Traits
 {
-    const Trait aquatic("Aquatic","lives in water"); // sponges live in water but cant swim, same as coral
-    const Trait swimmer("swimmer","can swim"); // land/air dwelling animals can swim but dont live there
+    const sptr<Trait> aquatic = makesptr<Trait>("Aquatic","lives in water"); // sponges live in water but cant swim, same as coral
 }
