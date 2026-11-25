@@ -1,4 +1,4 @@
-g++ -I. -Iclasses -Iclasses/lifeforms classes/*.cpp classes/lifeforms/*.cpp cpp.cpp -o test
+g++ -I. -Iclasses -Iclasses/lifeforms -Iclasses/supersets classes/*.cpp classes/lifeforms/*.cpp classes/supersets/*.cpp cpp.cpp -o test
 
 -I. == include cwd
 
@@ -11,3 +11,5 @@ classes/*.cpp == include all cpp files for linking and compilation; same with cl
 cpp.cpp == main sourcefile
 
 -o test == output to file called "test" in cwd
+
+if any folder does not include .h/.cpp files and its included ie -Iexample example/*.cpp then itll throw an error, so just fill it with an empty header and cpp file

@@ -10,6 +10,9 @@
 #include "Genus.h"
 
 #include "Trait.h"
+#include "Capability.h"
+
+#include "Elasmobranchii.h"
 
 #include "typeMacros.h"
 
@@ -17,4 +20,10 @@ class HCurvatus : public LifeForm
 {
 public:
     HCurvatus();
+};
+
+class ElasmobranchiiHCurvatus : public Elasmobranchii
+{
+    public:
+    ElasmobranchiiHCurvatus();
 };

@@ -21,4 +21,8 @@ int main(){
     HCurvatus hc = HCurvatus();
     
     hc.Print();
+
+    LifeForm ehc = ElasmobranchiiHCurvatus(); //multilevel inherited LifeForm > Elasmobranchii > ElasmobranchiiHCurvatus; instantiated to LifeForm(base of Elasmobranchii) where Elasmobranchii is the base of ElasmobranchiiHCurvatus
+
+    ehc.Print();
 }

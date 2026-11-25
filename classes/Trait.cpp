@@ -1,5 +1,4 @@
 #include "Trait.h"
-
 #include <memory>
 
 Trait::Trait(const string& tn, const string& td)
