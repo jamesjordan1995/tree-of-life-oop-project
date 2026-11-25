@@ -17,4 +17,5 @@ class Capability
 namespace Capabilities
 {
     extern const sptr<Capability> swimmer;
+    extern const sptr<Capability> hunter;
 }

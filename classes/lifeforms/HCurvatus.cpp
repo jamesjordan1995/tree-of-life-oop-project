@@ -13,6 +13,7 @@ HCurvatus::HCurvatus()
 {
     traits.push(Traits::aquatic); // on instanciation, append traits to vector
     capabilities.push(Capabilities::swimmer);
+    capabilities.push(Capabilities::hunter);
 }
 ElasmobranchiiHCurvatus::ElasmobranchiiHCurvatus()
     : Elasmobranchii(
@@ -24,4 +25,5 @@ ElasmobranchiiHCurvatus::ElasmobranchiiHCurvatus()
 {
     traits.push(Traits::aquatic); // on instanciation, append traits to vector
     capabilities.push(Capabilities::swimmer);
+    capabilities.push(Capabilities::hunter);
 }
