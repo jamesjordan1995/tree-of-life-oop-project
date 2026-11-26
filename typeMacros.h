@@ -12,6 +12,9 @@
 
 #define string std::string // this include must be below <string> inclusion
 
+#define any std::any // must include <any>
+#define anyCast(type,value) std::any_cast<type>(value)
+
 #define fixedArray std::array // below array, standard array class from std
 #define dynamicArray std::vector // below <vector>; this is defined from vector, but they are pretty much dynamic arrays with extra safety and heap allocated, including methods such as push/pop_back
 #define push push_back
