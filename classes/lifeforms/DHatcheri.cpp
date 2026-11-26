@@ -9,4 +9,4 @@
 
         capabilities.push(Capabilities::flight);
         capabilities.push(Capabilities::hunter);
-    }
+    } 
