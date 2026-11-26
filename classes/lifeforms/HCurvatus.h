@@ -16,12 +16,6 @@
 
 #include "typeMacros.h"
 
-class HCurvatus : public LifeForm
-{
-public:
-    HCurvatus();
-};
-
 class ElasmobranchiiHCurvatus : public Elasmobranchii
 {
     public:

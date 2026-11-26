@@ -4,6 +4,7 @@
 
 #include "LifeForm.h"
 #include "HCurvatus.h"
+#include "DHatcheri.h"
 
 #include "typeMacros.h"
 
@@ -18,11 +19,11 @@
 // classes/structs
 
 int main(){
-    HCurvatus hc = HCurvatus();
-    
-    hc.Print();
-
     LifeForm ehc = ElasmobranchiiHCurvatus(); //multilevel inherited LifeForm > Elasmobranchii > ElasmobranchiiHCurvatus; instantiated to base class LifeForm(base of Elasmobranchii) where Elasmobranchii is the base of ElasmobranchiiHCurvatus; so the grandchild is instanciated to the grandparent
 
     ehc.Print();
+
+    LifeForm nwvDH = DHatcheri();
+
+    nwvDH.Print();
 }

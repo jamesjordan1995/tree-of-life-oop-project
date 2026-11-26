@@ -15,4 +15,5 @@ class Order
 namespace Orders
 {
     extern const Order GroundSharks;
+    extern const Order Hawks;
 }

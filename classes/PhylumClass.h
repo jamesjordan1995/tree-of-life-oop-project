@@ -15,4 +15,5 @@ class PhylumClass
 namespace PhylumClasses
 {
     extern const PhylumClass Elasmobranchii;
+    extern const PhylumClass Birds;
 }

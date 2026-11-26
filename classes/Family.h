@@ -15,4 +15,5 @@ class Family
 namespace Families
 {
     extern const Family WeaselSharks;
+    extern const Family NewWorldVultures;
 }

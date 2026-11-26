@@ -16,4 +16,5 @@ class Genus
 namespace Genuses
 {
     extern const Genus Hemipristis;
+    extern const Genus Dryornis;
 }

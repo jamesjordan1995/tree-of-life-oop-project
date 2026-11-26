@@ -17,4 +17,6 @@ class Trait
 namespace Traits
 {
     extern const sptr<Trait> aquatic;
+    extern const sptr<Trait> keenEyes;
+    extern const sptr<Trait> diurnal;
 }
