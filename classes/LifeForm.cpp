@@ -34,7 +34,7 @@
         cout << lbe << name << lbe << endl;
         cout << lb << endl;
         //cout << "LifeForm Name: " << name << endl;
-        cout << "--LifeForm Description: " << description << endl;
+        cout << "--" << name << " Description: " << description << endl;
         cout << "--LifeForm Kingdom: " << "\n\t" << kingdom.name << "," << "\n\t" << kingdom.description << endl;
         cout << "--LifeForm Phylum: " << "\n\t" << phylum.name << "," << "\n\t" << phylum.description << endl;
         cout << "--LifeForm Class: " << "\n\t" << phylumClass.name << "," << "\n\t" << phylumClass.description << endl;
